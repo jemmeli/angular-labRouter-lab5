@@ -5,6 +5,8 @@ import {ArtistDetailComponent} from './artist/artist-detail.component';
 import {AlbumListComponent} from './album/album-list.component';
 import {AlbumDetailComponent} from './album/album-detail.component';
 
+//
+import { LoggedInGuard } from './login/logged.guard';
 
 export const routing = RouterModule.forRoot([
 
