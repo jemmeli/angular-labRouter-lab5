@@ -10,8 +10,12 @@ import { ArtistDetailComponent } from './artist/artist-detail.component';
 import { ArtistService } from './artist/artist.service';
 import { AlbumListComponent } from './album/album-list.component';
 import { AlbumDetailComponent } from './album/album-detail.component';
+//
+import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 //import { routing } from './app.routing';
 import { routing } from './app.routing';
+//
+import { LoggedInGuard } from './login/logged.guard';
 
 
 @NgModule({
@@ -28,6 +32,8 @@ import { routing } from './app.routing';
     ArtistService,
     AlbumService,
     LoginService,
+    {provide: LocationStrategy, useClass: HashLocationStrategy},
+    LoggedInGuard
   ],
   bootstrap: [AppComponent]
 })

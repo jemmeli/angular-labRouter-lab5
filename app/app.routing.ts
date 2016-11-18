@@ -10,9 +10,9 @@ export const routing = RouterModule.forRoot([
 
     {path: 'login', component: LoginFormComponent},
     {path: 'artists', component: ArtistListComponent},
-    {path: 'artists/:artistId', component: ArtistDetailComponent},
+    {path: 'artists/:artistId', component: ArtistDetailComponent , canActivate: [LoggedInGuard]},
     {path: 'albums', component: AlbumListComponent},
-    {path: 'albums/:albumId', component: AlbumDetailComponent},
+    {path: 'albums/:albumId', component: AlbumDetailComponent, canActivate: [LoggedInGuard]},
     {path: '', redirectTo: '/artists', pathMatch: 'full'}
 
 ]);

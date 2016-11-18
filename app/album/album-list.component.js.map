@@ -1,0 +1,1 @@
+{"version":3,"file":"album-list.component.js","sourceRoot":"","sources":["album-list.component.ts"],"names":[],"mappings":";;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAO1C;IAIE,4BAAY,YAA0B;QACpC,IAAI,CAAC,MAAM,GAAG,YAAY,CAAC,SAAS,EAAE,CAAC;IACzC,CAAC;IAVH;QAAC,gBAAS,CAAC;YACT,QAAQ,EAAE,YAAY;YACrB,WAAW,EAAG,wCAAwC;SACxD,CAAC;0BAAA;IASF,yBAAC;AAAD,CAAC,AARD,IAQC;AARY,0BAAkB,qBAQ9B,CAAA"}
